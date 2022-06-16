@@ -542,5 +542,6 @@ def visulization_plot(figName, cascade, censoring_time, theta_learned, last_pred
     else:
         ax.set_title('Predicted Counts', fontsize=fontsize)
     
+    plt.show()
     return s_df
 
